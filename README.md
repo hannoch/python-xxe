@@ -9,7 +9,7 @@
 通常攻击者会将payload注入XML文件中，一旦文件被执行，将会读取服务器上的本地文件，并对内网发起访问扫描内部网络端口。换而言之，XXE是一种从本地到达各种服务的方法。此外，在一定程度上这也可能帮助攻击者绕过防火墙规则过滤或身份验证检查。
 
 ```python
-# python3
+# python3  flask 作为后台
 git clone https://github.com/hannoch/python-xxe.git
 pip install -r requirements.txt
 python xxe.py
